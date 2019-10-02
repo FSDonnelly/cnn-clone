@@ -107,6 +107,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: CNN, 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
 }
 ol,
 ul {
@@ -135,7 +136,6 @@ a {
   width: 1100px;
   height: 100%;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
 }
 /* =======HEADER======= */
 .page-header {
@@ -188,6 +188,9 @@ a {
 .page-logo img {
   position: absolute;
   width: 100%;
+}
+.search-switcher-label {
+  margin: 0 15px;
 }
 .page-search-field {
   width: 0;
