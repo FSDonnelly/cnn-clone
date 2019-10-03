@@ -204,7 +204,22 @@ label:hover {
   right: 40px;
   top: -8px;
   font-size: 16px;
+  font-weight: 300;
   height: 30px;
+  display: none;
+}
+.page-search-field-label {
+  position: absolute;
+  right: 40px;
+  top: -8px;
+  height: 30px;
+  background: transparent;
+  line-height: 30px;
+  width: 100px;
+  display: none;
+}
+#search-switcher:checked ~ .page-search-field {
+  display: block;
 }
 #international-switcher:checked ~ .international-block {
   display: block;
