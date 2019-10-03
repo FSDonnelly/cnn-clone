@@ -137,7 +137,9 @@ a {
   height: 100%;
   margin: 0 auto;
 }
-
+label:hover {
+  cursor: pointer;
+}
 /* =======HEADER======= */
 .page-header {
   height: 50px;
