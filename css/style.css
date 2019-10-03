@@ -247,4 +247,6 @@ a {
   color: #bfbfbf;
   width: 80px;
   height: 30px;
+  padding: 0 15px;
+  line-height: 30px;
 }
