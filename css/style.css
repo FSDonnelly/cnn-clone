@@ -197,13 +197,19 @@ a {
   width: 0;
   visibility: hidden;
 }
+#international-switcher:checked ~ .international-block {
+  display: block;
+}
 .international-block {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 50px;
-  padding: 8px 15px 0;
+  padding: 8px 15px 15px;
   width: 250px;
   left: -65px;
+  box-sizing: border-box;
+  font-weight: 300;
+  display: none;
 }
 .international-block ul {
   text-align: right;
