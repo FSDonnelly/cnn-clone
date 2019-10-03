@@ -284,3 +284,18 @@ label:hover {
   line-height: 30px;
   font-size: 15px;
 }
+/* .header-expanded-menu {
+  position: relative;
+} */
+.header-expanded-menu-block {
+  width: 100vw;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 50px;
+  right: 0;
+  display: none;
+}
+#expanded-switcher:checked ~ .header-expanded-menu-block {
+  display: block;
+}
