@@ -209,7 +209,7 @@ a {
   text-align: right;
 }
 .international-block ul li {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding: 0 15px;
 }
 .international-edition {
@@ -245,8 +245,8 @@ a {
   background: transparent;
   border: 1px solid #bfbfbf;
   color: #bfbfbf;
-  width: 80px;
   height: 30px;
   padding: 0 15px;
   line-height: 30px;
+  font-size: 15px;
 }
