@@ -191,6 +191,7 @@ label:hover {
 .page-logo img {
   position: absolute;
   width: 100%;
+  z-index: 100;
 }
 .search-switcher-label {
   margin: 0 15px;
