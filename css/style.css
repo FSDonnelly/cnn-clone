@@ -300,3 +300,16 @@ label:hover {
 #expanded-switcher:checked ~ .header-expanded-menu-block {
   display: block;
 }
+.expanded-top-block {
+  padding-top: 25px;
+}
+.expanded-top-block h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.expanded-top-block a {
+  font-size: 14px;
+  font-weight: 300;
+}
