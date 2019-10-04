@@ -228,6 +228,7 @@ label:hover {
 }
 #international-switcher:checked ~ .international-block {
   display: block;
+  z-index: 100;
 }
 .international-block {
   background: rgba(0, 0, 0, 0.8);
