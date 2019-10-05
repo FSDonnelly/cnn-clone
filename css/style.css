@@ -385,6 +385,7 @@ label:hover {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 .footer-weather {
   display: flex;
