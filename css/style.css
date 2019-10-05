@@ -383,6 +383,7 @@ label:hover {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 .footer-weather {
   display: flex;
@@ -390,4 +391,22 @@ label:hover {
 }
 .footer-weather img {
   margin: 0 10px;
+}
+.footer-top-block .search {
+  background: #262626;
+  color: #bfbfbf;
+  border: 0;
+  width: 320px;
+  height: 35px;
+  font-size: 16px;
+  outline: none;
+  padding: 6px 45px 6px 12px;
+}
+.footer-top-block .search-block label {
+  margin-left: -40px;
+  font-size: 22px;
+}
+.footer-top-block .search-block {
+  display: flex;
+  align-items: center;
 }
