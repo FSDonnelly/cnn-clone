@@ -373,6 +373,8 @@ label:hover {
   background-color: #0c0c0c;
   color: #fff;
   margin-top: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .page-footer a {
   color: #bfbfbf;
@@ -383,7 +385,6 @@ label:hover {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
 }
 .footer-weather {
   display: flex;
