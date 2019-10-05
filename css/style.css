@@ -330,6 +330,8 @@ label:hover {
   align-items: center;
   width: 80%;
   justify-content: flex-start;
+  background-color: transparent;
+  padding-left: 0;
 }
 .expanded-bottom-block .international-block hr {
   display: none;
@@ -347,6 +349,9 @@ label:hover {
   align-items: center;
   justify-content: space-between;
 }
+.expanded-bottom-block .international-block ul li:first-child {
+  padding-left: 0;
+}
 .expanded-bottom-block .international-block ul li img {
   height: 30px;
   width: 30px;
@@ -356,9 +361,9 @@ label:hover {
   height: 30px;
   width: 90px;
 }
-.expanded-bottom-block .international-block .row-block.flex-block {
-  margin-left: 15px;
+.expanded-bottom-block .international-block label {
+  margin-right: 15px;
 }
-.expanded-bottom-block .international-block .row-block.flex-block button {
-  margin-left: 30px;
+.expanded-bottom-block .row-block.flex-block label:nth-of-type(1) {
+  margin-right: 15px;
 }
