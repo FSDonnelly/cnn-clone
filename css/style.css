@@ -367,3 +367,12 @@ label:hover {
 .expanded-bottom-block .row-block.flex-block label:nth-of-type(1) {
   margin-right: 15px;
 }
+
+/* =======FOOTER======= */
+.page-footer {
+  background-color: #0c0c0c;
+}
+.page-footer a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
