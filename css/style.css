@@ -372,7 +372,32 @@ label:hover {
 article img {
   width: 100%;
 }
-
+h1 {
+  color: #262626;
+  font-size: 55.44px;
+  font-weight: 500;
+  line-height: 1.11;
+  text-align: center;
+}
+.image-label {
+  background: rgb(204, 0, 0);
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  width: auto;
+  padding: 0 10px;
+}
+.label-block {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+.image-block {
+  position: relative;
+}
 /* =======FOOTER======= */
 .page-footer {
   background-color: #0c0c0c;
