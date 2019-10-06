@@ -372,6 +372,9 @@ label:hover {
 article img {
   width: 100%;
 }
+.bold {
+  font-weight: bold;
+}
 h1 {
   color: #262626;
   font-size: 55.44px;
@@ -397,6 +400,20 @@ h1 {
 }
 .image-block {
   position: relative;
+}
+article h3 {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(38, 38, 38);
+}
+.last-news a {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(38, 38, 38);
+}
+.last-news li {
+  padding: 7px 0;
+  border-top: 1px solid #d9d9d9;
 }
 /* =======FOOTER======= */
 .page-footer {
