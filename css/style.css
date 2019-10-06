@@ -405,6 +405,7 @@ article h3 {
   font-size: 16px;
   line-height: 20px;
   color: rgb(38, 38, 38);
+  margin: 7px 0;
 }
 .last-news a {
   font-size: 15px;
@@ -414,6 +415,12 @@ article h3 {
 .last-news li {
   padding: 7px 0;
   border-top: 1px solid #d9d9d9;
+}
+.play::after {
+  content: '\f144';
+  font-family: 'Font Awesome 5 Free';
+  color: #a6a6a6;
+  margin-left: 7px;
 }
 /* =======FOOTER======= */
 .page-footer {
