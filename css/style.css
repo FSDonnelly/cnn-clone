@@ -369,6 +369,9 @@ label:hover {
 }
 
 /* =======MAIN======= */
+main {
+  padding-top: 35px;
+}
 article {
   margin-bottom: 30px;
 }
@@ -401,6 +404,7 @@ h1 {
   font-weight: bold;
   width: auto;
   padding: 0 10px;
+  text-transform: capitalize;
 }
 .label-block {
   position: absolute;
@@ -441,6 +445,11 @@ h1 {
   font-weight: bold;
   padding: 7px;
   background: #f2f2f2;
+}
+.middle-size {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
 }
 /* =======FOOTER======= */
 .page-footer {
