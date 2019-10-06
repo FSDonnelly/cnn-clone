@@ -368,6 +368,11 @@ label:hover {
   margin-right: 15px;
 }
 
+/* =======MAIN======= */
+article img {
+  width: 100%;
+}
+
 /* =======FOOTER======= */
 .page-footer {
   background-color: #0c0c0c;
