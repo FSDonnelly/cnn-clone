@@ -499,6 +499,7 @@ h1 {
 .dark-section {
   background: #1a1a1a;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .dark-section .section-heading::after {
   border-color: #c00;
