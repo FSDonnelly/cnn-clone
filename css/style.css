@@ -228,7 +228,7 @@ label:hover {
 }
 #international-switcher:checked ~ .international-block {
   display: block;
-  z-index: 100;
+  z-index: 200;
 }
 .international-block {
   background: rgba(0, 0, 0, 0.8);
@@ -297,6 +297,7 @@ label:hover {
   top: 50px;
   right: 0;
   display: none;
+  z-index: 150;
 }
 #expanded-switcher:checked ~ .header-expanded-menu-block {
   display: block;
